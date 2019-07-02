@@ -3,7 +3,7 @@ import { jsx, ThemeProvider, ColorMode } from 'theme-ui'
 import theme from './index'
 import components from './components'
 
-export const wrapRootElement = ({ element }, opts) =>
+export const wrapRootElement = ({ element }, _opts) =>
   jsx(
     ThemeProvider,
     {
